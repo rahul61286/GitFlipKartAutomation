@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14423" started-at="2020-05-15T04:12:55Z" finished-at="2020-05-15T04:13:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14423" started-at="2020-05-15T04:12:55Z" finished-at="2020-05-15T04:13:10Z">
+      <class name="com.flipkartAutomation.tests.HomePageTest">
+        <test-method status="PASS" signature="intailization()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1af0466]" name="intailization" is-config="true" duration-ms="13079" started-at="2020-05-15T04:12:55Z" finished-at="2020-05-15T04:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intailization -->
+        <test-method status="PASS" signature="loginButtonTest()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1af0466]" name="loginButtonTest" duration-ms="85" started-at="2020-05-15T04:13:08Z" finished-at="2020-05-15T04:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButtonTest -->
+        <test-method status="PASS" signature="loginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1af0466]" name="loginFunctionality" duration-ms="257" started-at="2020-05-15T04:13:09Z" data-provider="getData" finished-at="2020-05-15T04:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userOne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passOne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method status="PASS" signature="loginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1af0466]" name="loginFunctionality" duration-ms="180" started-at="2020-05-15T04:13:09Z" data-provider="getData" finished-at="2020-05-15T04:13:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userTwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passTwo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method status="PASS" signature="searchItem()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1af0466]" name="searchItem" duration-ms="594" started-at="2020-05-15T04:13:09Z" finished-at="2020-05-15T04:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1af0466]" name="verifyTitle" duration-ms="7" started-at="2020-05-15T04:13:10Z" finished-at="2020-05-15T04:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1af0466]" name="tearDown" is-config="true" duration-ms="192" started-at="2020-05-15T04:13:10Z" finished-at="2020-05-15T04:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkartAutomation.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

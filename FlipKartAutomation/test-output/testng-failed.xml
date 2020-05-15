@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.flipkartAutomation.tests.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.flipkartAutomation.tests.HomePageTest">
+        <methods>
+          <include name="loginFunctionality" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="intailization"/>
+        </methods>
+      </class> <!-- com.flipkartAutomation.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

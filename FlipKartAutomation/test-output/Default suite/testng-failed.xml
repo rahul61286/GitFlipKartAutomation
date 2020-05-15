@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.flipkartAutomation.tests.HomePageTest">
+        <methods>
+          <include name="loginButtonTest"/>
+          <include name="searchItem"/>
+          <include name="loginFunctionality"/>
+          <include name="verifyTitle"/>
+          <include name="tearDown"/>
+          <include name="intailization"/>
+        </methods>
+      </class> <!-- com.flipkartAutomation.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
