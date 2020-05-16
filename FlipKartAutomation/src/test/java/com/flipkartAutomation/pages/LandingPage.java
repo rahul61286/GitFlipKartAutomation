@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.flipkartAutomation.tests.Base;
 import com.flipkartAutomation.tests.HomePageTest;
@@ -15,7 +16,7 @@ import com.flipkartAutomation.tests.HomePageTest;
 
 public class LandingPage extends Base {
 	private static Logger log=LogManager.getLogger(HomePageTest.class.getName());
-	
+
 	public WebDriver driver;
 	JavascriptExecutor js;
 
@@ -24,73 +25,86 @@ public class LandingPage extends Base {
 		js=(JavascriptExecutor)driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	
+
+
 	@FindBy (xpath="//a[text()='Login']")
 	WebElement loginButton;
-	
+
 	@FindBy (css=".LM6RPg")
 	WebElement searchBox;
-	
+
 	@FindBy (css="._3ko_Ud")
 	WebElement cart;
-	
+
 	@FindBy (css="._2AkmmA._29YdH8")
 	WebElement closeLoginScreen;
-	
+
 	@FindBy (css="._2zrpKA._1dBPDZ")
 	WebElement email;
-	
+
 	@FindBy (css="._2zrpKA._3v41xv._1dBPDZ")
 	WebElement password;
-	
+
 	@FindBy (css="._2AkmmA._1LctnI._7UHT_c")
 	WebElement submit;
-	
+
 	@FindBy (xpath="//div[@class='_2aUbKa' and text()='Flipkart']")
 	WebElement loginText;
-	
+
 	@FindBy (css=".vh79eN")
 	WebElement searchButton;
+
+	@FindBy (xpath="//*[@name='email']")
+	WebElement MyLoginEmail;
 	
-	
+	@FindBy (xpath="//*[@class='_1Q5BxB' and text()='My Profile']")
+	WebElement MyProfile;
+
 	public WebElement loginButton(){
 		return loginButton;
 	}
-	
+
 	public WebElement searchBox(){
 		return searchBox;
 	}
-	
+
 	public WebElement cart(){
 		return cart;
 	}
-	
+
 	public WebElement closeLoginScreen(){
 		return closeLoginScreen;
 	}
-	
+
 	public WebElement email(){
 		return email;
 	}
-	
+
 	public WebElement password(){
 		return password;
 	}
-	
+
 	public WebElement submit(){
 		return submit;
 	}
-	
+
 	public WebElement loginText() {
 		return loginText;
 	}
-	
+
 	public WebElement searchButton() {
 		return searchButton;
 	}
 	
+<<<<<<< HEAD
 	
+=======
+	public WebElement MyProfile(){
+		return MyProfile;
+	}
+	
+
+>>>>>>> 645eb48f81276e79034ed5df611d1cba48399b27
 	public boolean searchItemInSearchBox(String item) {
 		int flag=0;
 		String value=(String)js.executeScript("return document.getElementsByClassName('LM6RPg')[0].value;");
@@ -111,7 +125,16 @@ public class LandingPage extends Base {
 			return true;
 		}
 	}
+<<<<<<< HEAD
 	
 	
 	
+=======
+
+	public String loginEmail(){
+		d.until(ExpectedConditions.visibilityOf(MyLoginEmail));
+		return MyLoginEmail.getAttribute("value");
+
+	}
+>>>>>>> 645eb48f81276e79034ed5df611d1cba48399b27
 }
