@@ -69,6 +69,11 @@ public class HomePageTest extends Base {
 		Assert.assertEquals(prop.getProperty("homePageTitle"), driver.getTitle());
 	}
 	
+	@Test
+	public void verifyCart(){
+		Assert.assertTrue(lp.cart().isDisplayed());
+	}
+	
 	
 	@AfterTest
 	public void tearDown() throws IOException {

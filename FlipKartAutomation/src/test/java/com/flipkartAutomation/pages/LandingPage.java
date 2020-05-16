@@ -32,7 +32,7 @@ public class LandingPage extends Base {
 	@FindBy (css=".LM6RPg")
 	WebElement searchBox;
 	
-	@FindBy (xpath="//span[text()='Cart']")
+	@FindBy (css="._3ko_Ud")
 	WebElement cart;
 	
 	@FindBy (css="._2AkmmA._29YdH8")
@@ -52,6 +52,7 @@ public class LandingPage extends Base {
 	
 	@FindBy (css=".vh79eN")
 	WebElement searchButton;
+	
 	
 	public WebElement loginButton(){
 		return loginButton;
