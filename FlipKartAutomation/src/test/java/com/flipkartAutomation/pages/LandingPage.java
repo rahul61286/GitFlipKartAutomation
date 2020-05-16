@@ -90,6 +90,7 @@ public class LandingPage extends Base {
 		return searchButton;
 	}
 	
+	
 	public boolean searchItemInSearchBox(String item) {
 		int flag=0;
 		String value=(String)js.executeScript("return document.getElementsByClassName('LM6RPg')[0].value;");
@@ -110,4 +111,7 @@ public class LandingPage extends Base {
 			return true;
 		}
 	}
+	
+	
+	
 }
