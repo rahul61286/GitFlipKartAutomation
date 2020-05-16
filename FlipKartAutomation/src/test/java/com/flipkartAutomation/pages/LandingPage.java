@@ -96,15 +96,11 @@ public class LandingPage extends Base {
 		return searchButton;
 	}
 	
-<<<<<<< HEAD
-	
-=======
 	public WebElement MyProfile(){
 		return MyProfile;
 	}
 	
 
->>>>>>> 645eb48f81276e79034ed5df611d1cba48399b27
 	public boolean searchItemInSearchBox(String item) {
 		int flag=0;
 		String value=(String)js.executeScript("return document.getElementsByClassName('LM6RPg')[0].value;");
@@ -125,16 +121,10 @@ public class LandingPage extends Base {
 			return true;
 		}
 	}
-<<<<<<< HEAD
-	
-	
-	
-=======
 
 	public String loginEmail(){
 		d.until(ExpectedConditions.visibilityOf(MyLoginEmail));
 		return MyLoginEmail.getAttribute("value");
 
 	}
->>>>>>> 645eb48f81276e79034ed5df611d1cba48399b27
 }
