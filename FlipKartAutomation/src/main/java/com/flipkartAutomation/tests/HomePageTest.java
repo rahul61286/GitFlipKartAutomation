@@ -6,6 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -19,6 +20,7 @@ import com.flipkartAutomation.pages.LandingPage;
 public class HomePageTest extends Base {
 	public WebDriver driver;
 	public LandingPage lp;
+	public Actions a;
 	
 	private static Logger log=LogManager.getLogger(HomePageTest.class.getName());
 	
@@ -72,6 +74,15 @@ public class HomePageTest extends Base {
 	@Test
 	public void verifyCart(){
 		Assert.assertTrue(lp.cart().isDisplayed());
+	}
+	
+	
+	@Test(dependsOnMethods= {"verifyTitle"})
+	public void verifyMyProfile(){
+		a=new Actions(driver);
+		a.moveToElement(lp.loginText()).moveToElement(lp.MyProfile()).click().build().perform();
+		Assert.assertEquals(lp.loginEmail(),prop.getProperty("email"));
+		
 	}
 	
 	
