@@ -123,6 +123,7 @@ public class LandingPage extends Base {
 	}
 
 	public String loginEmail(){
+		log.info("Login email");
 		d.until(ExpectedConditions.visibilityOf(MyLoginEmail));
 		return MyLoginEmail.getAttribute("value");
 
