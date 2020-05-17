@@ -128,3 +128,7 @@
 20:18:12.717 [main] DEBUG com.flipkartAutomation.tests.Base - Driver Instantiated successfully
 20:18:29.144 [main] INFO  com.flipkartAutomation.tests.HomePageTest - Navigated to the application
 20:18:35.304 [main] ERROR com.flipkartAutomation.tests.HomePageTest - search item not present in the list
+20:52:54.127 [main] INFO  com.flipkartAutomation.tests.Base - Successfully loaded property file
+20:52:57.438 [main] DEBUG com.flipkartAutomation.tests.Base - Driver Instantiated successfully
+20:53:08.119 [main] INFO  com.flipkartAutomation.tests.HomePageTest - Navigated to the application
+20:53:14.527 [main] ERROR com.flipkartAutomation.tests.HomePageTest - search item not present in the list

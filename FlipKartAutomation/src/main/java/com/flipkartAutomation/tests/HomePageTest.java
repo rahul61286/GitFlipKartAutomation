@@ -83,6 +83,7 @@ public class HomePageTest extends Base {
 	public void verifyMyProfile(){
 		a=new Actions(driver);
 		a.moveToElement(lp.loginText()).moveToElement(lp.MyProfile()).click().build().perform();
+		log.info("Verifying the email address for the logged in person");
 		Assert.assertEquals(lp.loginEmail(),prop.getProperty("email"));
 		
 	}

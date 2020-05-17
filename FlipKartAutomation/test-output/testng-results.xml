@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31309" started-at="2020-05-16T14:48:09Z" finished-at="2020-05-16T14:48:40Z">
+  <suite name="Suite" duration-ms="24685" started-at="2020-05-16T15:22:54Z" finished-at="2020-05-16T15:23:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31309" started-at="2020-05-16T14:48:09Z" finished-at="2020-05-16T14:48:40Z">
+    <test name="Test" duration-ms="24685" started-at="2020-05-16T15:22:54Z" finished-at="2020-05-16T15:23:18Z">
       <class name="com.flipkartAutomation.tests.HomePageTest">
-        <test-method status="PASS" signature="intailization()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1f4931d]" name="intailization" is-config="true" duration-ms="19864" started-at="2020-05-16T14:48:09Z" finished-at="2020-05-16T14:48:29Z">
+        <test-method status="PASS" signature="intailization()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1238fc2]" name="intailization" is-config="true" duration-ms="14006" started-at="2020-05-16T15:22:54Z" finished-at="2020-05-16T15:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intailization -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1f4931d]" name="verifyTitle" duration-ms="15" started-at="2020-05-16T14:48:29Z" finished-at="2020-05-16T14:48:29Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1238fc2]" name="verifyTitle" duration-ms="15" started-at="2020-05-16T15:23:08Z" finished-at="2020-05-16T15:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="loginButtonTest()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1f4931d]" name="loginButtonTest" duration-ms="73" started-at="2020-05-16T14:48:29Z" finished-at="2020-05-16T14:48:29Z">
+        <test-method status="PASS" signature="loginButtonTest()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1238fc2]" name="loginButtonTest" duration-ms="77" started-at="2020-05-16T15:23:08Z" finished-at="2020-05-16T15:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginButtonTest -->
-        <test-method status="PASS" signature="loginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1f4931d]" name="loginFunctionality" duration-ms="5276" started-at="2020-05-16T14:48:29Z" data-provider="getData" finished-at="2020-05-16T14:48:34Z">
+        <test-method status="PASS" signature="loginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1238fc2]" name="loginFunctionality" duration-ms="5477" started-at="2020-05-16T15:23:08Z" data-provider="getData" finished-at="2020-05-16T15:23:13Z">
           <params>
             <param index="0">
               <value>
@@ -35,23 +35,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctionality -->
-        <test-method status="PASS" signature="searchItem()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1f4931d]" name="searchItem" duration-ms="756" started-at="2020-05-16T14:48:34Z" finished-at="2020-05-16T14:48:35Z">
+        <test-method status="PASS" signature="searchItem()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1238fc2]" name="searchItem" duration-ms="801" started-at="2020-05-16T15:23:13Z" finished-at="2020-05-16T15:23:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItem -->
-        <test-method status="PASS" signature="verifyCart()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1f4931d]" name="verifyCart" duration-ms="27" started-at="2020-05-16T14:48:35Z" finished-at="2020-05-16T14:48:35Z">
+        <test-method status="PASS" signature="verifyCart()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1238fc2]" name="verifyCart" duration-ms="30" started-at="2020-05-16T15:23:14Z" finished-at="2020-05-16T15:23:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCart -->
-        <test-method status="PASS" signature="verifyMyProfile()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1f4931d]" name="verifyMyProfile" duration-ms="2899" started-at="2020-05-16T14:48:35Z" depends-on-methods="com.flipkartAutomation.tests.HomePageTest.verifyTitle" finished-at="2020-05-16T14:48:38Z">
+        <test-method status="PASS" signature="verifyMyProfile()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1238fc2]" name="verifyMyProfile" duration-ms="1919" started-at="2020-05-16T15:23:14Z" depends-on-methods="com.flipkartAutomation.tests.HomePageTest.verifyTitle" finished-at="2020-05-16T15:23:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMyProfile -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1f4931d]" name="tearDown" is-config="true" duration-ms="2351" started-at="2020-05-16T14:48:38Z" finished-at="2020-05-16T14:48:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkartAutomation.tests.HomePageTest@1238fc2]" name="tearDown" is-config="true" duration-ms="2314" started-at="2020-05-16T15:23:16Z" finished-at="2020-05-16T15:23:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.flipkartAutomation.tests.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
