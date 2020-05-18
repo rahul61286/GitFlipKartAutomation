@@ -73,6 +73,7 @@ public class HomePageTest extends Base {
 	@Test
 	public void verifyTitle() {
 		Assert.assertEquals(prop.getProperty("homePageTitle"), driver.getTitle());
+		log.info("Title verified");
 	}
 	
 	@Test
