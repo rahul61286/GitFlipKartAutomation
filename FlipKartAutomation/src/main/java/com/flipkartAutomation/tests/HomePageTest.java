@@ -41,6 +41,7 @@ public class HomePageTest extends Base {
 			lp=new LandingPage(driver);
 			d.until(ExpectedConditions.visibilityOf(lp.loginButton()));
 			Assert.assertTrue(lp.loginButton().isEnabled());
+			log.info("login button functionality verified");
 	}
 	
 	
