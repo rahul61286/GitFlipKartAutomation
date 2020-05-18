@@ -54,6 +54,7 @@ public class HomePageTest extends Base {
 			lp.submit().click();
 			d.until(ExpectedConditions.visibilityOf(lp.loginText()));
 			Assert.assertTrue(lp.loginText().getText().equalsIgnoreCase(prop.getProperty("logintxt")));
+			log.info("Login functionality working as expected");
 	}
 	
 	
