@@ -92,8 +92,22 @@ public class HomePageTest extends Base {
 	
 	@AfterTest
 	public void tearDown() throws IOException {
-		fis.close();
-		driver.close();
+		try {
+			if(fis!=null) {
+				fis.close();
+			}
+		}catch(Exception e) {
+			log.error("Error closing inputstream object");
+		}
+		
+		try {
+			if (driver!=null) {
+				driver.close();
+			}
+		}catch(Exception e) {
+			log.error("Error closing driver object");
+		}
+		
 	}
 	
 	@DataProvider
