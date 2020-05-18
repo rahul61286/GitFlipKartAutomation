@@ -79,6 +79,7 @@ public class HomePageTest extends Base {
 	@Test
 	public void verifyCart(){
 		Assert.assertTrue(lp.cart().isDisplayed());
+		log.info("Verify cart functionality");
 	}
 	
 	
